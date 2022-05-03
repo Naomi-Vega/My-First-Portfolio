@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -165,4 +167,87 @@ body {
 
 .nav-buttons {
   margin-right: 1rem;
+}
+
+/* Content Home Page */
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #331323;
+  line-height: 1.8;
+}
+
+.about-btn a {
+  color: white;
+  background-color: rgb(72, 46, 99);
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 15px 50px;
+  margin-left: 100px;
+  border: none;
+  border-radius: 50px;
+}
+
+.about-btn a:hover {
+  transition: background-color 0.5s;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* Content About Page */
+.img-bottom {
+  position: absolute;
+  top: 270px;
+  left: 850px;
+  border-radius: 20px;
+}
+
+.img-bottom:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+.img-top {
+  position: absolute;
+  top: 340px;
+  left: 800px;
+  border-radius: 20px;
+}
+
+.img-top:hover {
+  cursor: pointer;
+  z-index: 9999;
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+.title-2 h1 {
+  display: flex;
+  text-align: center;
+  font-family: "Orelega One", cursive;
+  color: wheat;
+  font-size: 50px;
+}
+
+.title-2 p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Manrope", sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  line-height: 1.8;
+  padding-top: 30px;
+  padding-left: 90px;
+  width: 55%;
 }/*# sourceMappingURL=index.css.map */
