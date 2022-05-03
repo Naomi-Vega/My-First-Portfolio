@@ -240,7 +240,6 @@ h2 {
 
 /* Skills page */
 
-
 .title-3 h1 {
     display: flex;
     justify-content: center;
@@ -286,3 +285,34 @@ h2 {
     padding-left: 90px;
     width: 94%;
 }
+
+/* Qualifications page */
+
+.title-4 h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Orelega One', cursive;
+    color: wheat;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0px;
+}
+.imgs-qua {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.img-middle {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+    margin: 25px 20px;
+  }
+  
+div.content {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+  }
