@@ -268,7 +268,7 @@ h2 {
     font-family: 'Karla', sans-serif;
     font-weight: bold;
     font-size: 20px;
-} 
+}
 
 .icons i {
     margin-bottom: 10px;
@@ -297,6 +297,7 @@ h2 {
     margin: 0;
     padding: 20px 0px;
 }
+
 .imgs-qua {
     display: flex;
     flex-direction: row;
@@ -308,11 +309,95 @@ div.img-middle {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
     margin: 25px 20px;
-  }
-  
+}
+
 div.content {
     text-align: center;
     padding: 10px 20px;
     font-family: 'Karla', sans-serif;
     font-weight: bolder;
-  }
+}
+
+/* Projects page */
+
+.title-5 h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Orelega One', cursive;
+    color: wheat;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: 40px 18px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+.project-img:hover .image {
+    opacity: 0.3;
+}
+
+.project-img:hover .middle {
+    opacity: 1;
+}
+
+.text-inside-1 {
+    background-color: #621e7c;
+    color: white;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    padding: 16px 20px;
+    margin: 0px 10px;
+}
+
+.text-inside-2 {
+    background-color: #621e7c;
+    color: white;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    padding: 16px 20px;
+    margin: 0px 10px;}
+
+.text-inside-3 {
+    background-color: #621e7c;
+    color: white;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    padding: 16px 20px;
+    margin: 0px 10px;}
+
+.text-inside-4 {
+    background-color: #621e7c;
+    color: white;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    padding: 16px 20px;
+    margin: 0px 10px;
+}
+
+.tools {
+    background-color:#d8b4e6a1;
+    font-family: 'Orelega One', cursive;
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
