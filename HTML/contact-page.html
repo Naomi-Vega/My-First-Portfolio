@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
     <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
     <!-- ICONS -->
-
+    <script src="https://kit.fontawesome.com/55f60bf8e7.js" crossorigin="anonymous"></script>
     <!-- STYLESHEET-->
     <link rel="stylesheet" href="../CSS/index.css">
 
@@ -47,9 +50,41 @@
             <a href="../HTML/contact-page.html">Contact</a>
         </nav>
     </aside>
-
-
-
-
-
+    <section class="container-contact">
+        <div class="title-5">
+            <h1>Let's connect!</h1>
+            <p>If you ever want to have a nice quick chat, or have any questions... feel free to contact me through my
+                social media below or send
+                a message here!</p>
+        </div>
+        <div class="social-icons">
+            <li>
+                <a href="https://www.facebook.com/naomi.lishstno/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Naomi-Vega">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/nfernandav/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </div>
+        <div class="contact-form">
+            <label for="name" class="hidden"></label>
+            <input type="text" name="name" id="name" placeholder="name" autocomplete="off" required>
+            <label for="email" class="hidden"></label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+            <label for="message" class="hidden" autocomplete="off"></label>
+            <textarea name="message" id="message" placeholder="message" required></textarea>
+            <div class="submit">
+                <button class="send" type="submit">Send message</button>
+            </div>
+        </div>
 </body>
+
+</html>

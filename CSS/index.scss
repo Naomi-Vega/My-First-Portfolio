@@ -401,3 +401,80 @@ div.content {
     padding: 10px;
     margin: 10px;
 }
+
+/* Contact page */
+
+.title-5 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    color: #d87cd5;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    list-style: none;
+    margin: 0;
+}
+
+.social-icons i {
+    color: #f0486f;
+}
+
+.social-icons i:hover {
+    color: wheat;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45%;  
+    padding-right: 10%;
+}
+
+.contact-form input {
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #fc94ea;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact-form textarea {
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px 0;
+    height: 170px;
+    border: 2px solid #fc94ea;
+    border-radius: 5px;
+    resize: none;
+}
+
+.send {
+    background-color: #46244C;
+    border: 2px solid #46244C;
+    padding: 10px 15px;
+    margin: 10px 0;
+    width: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase
+}
+
+.send:hover {
+    cursor: pointer;
+    background-color: #46244c5d;
+    color: black;
+}
