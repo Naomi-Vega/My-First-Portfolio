@@ -237,3 +237,52 @@ h2 {
     padding-left: 90px;
     width: 55%;
 }
+
+/* Skills page */
+
+
+.title-3 h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Orelega One', cursive;
+    color: wheat;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto 30px auto;
+}
+
+.icons li {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    width: 120px;
+    padding: 20px 0;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+.icons i {
+    margin-bottom: 10px;
+    color: #3d0453;
+}
+
+.text {
+    text-align: center;
+    text-justify: inter-word;
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 1.8;
+    padding-left: 90px;
+    width: 94%;
+}
